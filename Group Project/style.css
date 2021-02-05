@@ -4,3 +4,10 @@ header {
     background-position: 0 50%;
     height: 400px;
 }
+
+nav li {
+    float: left;
+    margin: 25px;
+    border: 10px solid black;
+    padding: 25px;
+}
