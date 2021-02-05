@@ -1,16 +1,6 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-
-
-body {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
-
+header {
+    background-image: url("assets/skyline.jpg");
+    background-size: cover;
+    background-position: 0 50%;
+    height: 400px;
 }
