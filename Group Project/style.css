@@ -14,6 +14,7 @@ header {
 }
 
 nav li {
+    justify-content: center;
     display: flex;
     float: left;
     margin: 25px;
@@ -21,11 +22,15 @@ nav li {
     padding: 25px;
     background-color: dodgerblue;
 }
-
-article {
+ /*added section article to specify css style application location as well as shadow, border radius and decreased width*/
+section article {
+    display: flex;
+    flex-direction: column;
+    float: left;
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: dodgerblue;
+<<<<<<< HEAD
 }
 
 .Cities {
@@ -35,3 +40,35 @@ article {
     width: 40px;
     height:100%;
 }
+=======
+    width: 60%;
+    color: rgb(36, 34, 34);
+    border: 2px solid rgb(36, 34, 34);
+    border-radius: 5px;
+    box-shadow: 5px 4px 3px 1px lightskyblue;
+}
+
+/* added article p to add line height and space to the p within the parent article */
+article p {
+    line-height: 2;
+}
+ /*added class to aside to specify lcoation
+ here i was trying to add a class to get it to line up at the top on the right side
+ but i couldnt figure it out
+ 
+ so if you add 
+ aside .right_sidebar 
+ to the css element below, it will position it better but remove formating. */
+aside {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    
+    color: dodgerblue;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px dodgerblue;
+}
+
+>>>>>>> 1d25430e8f272f87f4962359a837fb82cbcd8544
